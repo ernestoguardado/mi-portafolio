@@ -62,6 +62,17 @@ export default function Hero() {
         </p>
         <span className="h-px w-6 bg-gray-300 dark:bg-gray-600" />
       </div>
+
+      <a
+        href="/cv/ErnestoGuardadoCV.pdf"
+        download
+        className="mt-6 inline-flex items-center gap-2 rounded-xl border border-gray-300 px-5 py-2.5 text-sm font-medium text-gray-700 transition hover:border-indigo-500 hover:text-indigo-600 dark:border-gray-700 dark:text-gray-300 dark:hover:border-indigo-400 dark:hover:text-indigo-400"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-4 w-4">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+        </svg>
+        {t({ es: 'Descargar CV', en: 'Download CV' })}
+      </a>
     </div>
   );
 }

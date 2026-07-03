@@ -7,6 +7,7 @@ export interface Project {
   cover?: string;
   logo?: string;
   images?: string[];
+  video?: string;
   tags: string[];
   github?: string;
   demo?: string;
